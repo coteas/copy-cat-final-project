@@ -1,0 +1,378 @@
+body{
+    background-color: #999999;
+    margin: 0;
+    padding:0px;
+}
+.webpage-wrapper{
+    width: 75%;
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 80px;
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.w3-display-container{
+height: 480px;
+margin: 0 auto;
+}
+.arrow-selectors{
+    position: relative;
+    display: flex; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 94%; 
+    vertical-align: middle;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.flickity-prev-next-button-previous{
+    width: 40px;
+    background-color: white;
+    display: flex;
+}
+.flickity-prev-next-button-next{
+width: 40px;
+background-color: white;
+display: flex;
+}
+.image-slides{
+    background-color: white;
+margin: 0 auto;
+    height: 360px;
+    border-radius: 10px;
+    width: 30%;
+    display: inline-block;
+}
+video{
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 20px;
+    width: 100%;
+}
+nav{
+    background-color: black;
+    height: 80px;
+    min-width: 80px;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+
+
+}
+.hamburger{
+    display: none;
+}
+.line{
+    border-left: 1px solid white;
+    height: 90px;
+    margin-top: -56px;
+}
+#logo{
+    width: 60px;
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 20px
+}
+nav ul{
+list-style-type: none;
+padding-right: 10px;
+justify-content: right;
+font-family: Gotham, sans-serif;
+display: flex;
+margin-right: 40px;
+padding-top: 30px;
+gap: 40px;
+vertical-align: middle;
+min-width: 30%;
+}
+nav li{
+    color: white;
+    font-size: 15px;
+}
+i{
+    color: white;
+    
+}
+h4{
+    font-family: gotham, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color:  white;
+    font-size: 15px;
+    text-align: center;
+}
+
+header, .talent-search{
+    background-color: #f2f1ed;
+    padding: 15px;
+}
+.dxe-2023{
+    margin-top: 20px;
+    background-color: white;
+}
+.dxe-2023 h1{
+    display: flex;
+    text-align: center;
+    line-height: 80px;
+ font-size: 70px;
+}
+.all-portfolios {
+    padding: 10px;
+background-color: #333333;
+}
+.all-portfolios h1{
+    font-size: 70px;
+    line-height: 80px;
+color: white;
+}
+h1{
+    font-family: Calvino, light, serif;
+align-items: center;
+display: flex;
+justify-content: center;    
+line-height: 50px;
+text-align: center;
+    font-size: 55px;
+    font-weight: 100;
+}
+.scroll-review h4{
+    font-family: gotham, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color:  white;
+    font-size: 17px;
+    text-align: center;
+}
+.scroll-review h2{
+    font-family: Calvino, light, serif;
+    font-weight: 500;
+    margin: 0 auto;
+    color:  white;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    width: 90%;
+    padding: 50px;
+}
+.scroll-review{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+#reviews{
+    margin: 0px;
+    background-color: #333333;
+}
+h5{
+    font-family: gotham, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color:  #333333;
+    font-size: 12px;
+}
+
+.para-container{
+    margin: 0 auto;
+    display: block;
+justify-content: center;
+width: 75%;
+padding-top: -20px;
+}
+p{
+    font-family: Gotham, sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;
+}
+a{
+    font-family: gotham, sans-serif;
+    color:  #333333;
+
+}
+.btn-vertical-center{
+    text-align: center;
+
+}
+.button-style{
+margin: 0 auto;
+justify-content: center;
+display: flex;
+}
+button{
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    font-family: gotham, sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 14px;
+    vertical-align: middle;
+    font-weight: 100;
+height: 60px;
+width: 328px;
+margin: 30px;
+border: 1px solid white;
+
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-gallery img {
+width: 320px;
+}
+
+.workbook-directory{
+    display: flex;
+}
+.workbook-img-gallery-1{
+display: flex;
+flex-direction: row;
+min-width:800px;
+}
+.workbook-img-gallery-1 img{
+    width: 700px;
+
+}
+.fall-2022{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+padding: 15px;
+}
+
+.fall-2022 h1 {
+    font-size: 60px;
+    line-height: 70px;
+}
+.fall-2022 p {
+    font-family: Gotham, sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;
+    display: flex;
+}
+.community-grid{
+    background-color: #f2f1ed;
+    padding: 15px;
+
+}
+.wrapper{
+    display: flex;
+}
+.community-grid h1{
+    font-size: 65px;
+    line-height: 80px;
+    text-align: center;
+    display: flex;
+}
+.community-grid p{
+padding-bottom: 15px;
+display:block;
+}
+
+.wrapper h2{
+        font-size: 45px;
+        text-align: center
+}
+
+.grid-styling-3 img{
+    width: 90%;
+}
+
+.grid-styling-3{
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+}
+
+.grid-image{
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .arrow-selectors {
+      display: none;
+    }
+    .image-gallery img{
+        width: 100%;
+    }
+    .webpage-wrapper{
+        width: 100%;
+        margin: 0 auto;
+        background-color: white;
+        padding-top: 80px;
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .scroll-review h2{
+        font-family: Calvino, light, serif;
+        font-weight: 500;
+        margin: 15;
+        color:  white;
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+\    }
+
+    .scroll-review{
+justify-content: center;
+width: 100%;
+padding: 15px;
+    }
+.footer-wrapper{
+    display: flex;
+    width: 100%;
+    float: left;
+}
+
+.footer-placeholder {
+    display: flex;
+    width:100%;
+    padding-bottom: 500px;
+    vertical-align: ;
+    margin-top: 500px;
+    background-color: #f2f1ed;
+    
+}
+  }
+  @media only screen and (max-width: 900px) {
+
+    .wrapper{
+        display: block;
+    }
+    .grid-styling-3{
+        width: 100%;
+    }
+    .wrapper{
+        display: block;
+        margin: 0;
+justify-content: center;
+    }
+   
+
+  }
+
+  @media only screen and (max-width: 1200px) {
+    ul{
+        display: none;
+        }
+        .hamburger{
+            display: block;
+            width: 50%;
+        }
+}
